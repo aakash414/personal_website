@@ -3,22 +3,22 @@
 
   let steps = [
     {
-      name: "Smoljames Store",
-      icon: "fa-solid fa-cart-shopping",
+      name: "DeThread",
+      icon: "fa-solid fa-bookmark",
       description:
-        "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+        "An Extension Unleashing Uncensored Conversations for Every URL, Guaranteeing Privacy and Authentic Dialogue.",
     },
     {
-      name: "Utlimate Todos",
+      name: "VeriSafe",
       icon: "fa-solid fa-list-check",
       description:
-        "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+        "A Decentralized WebApp to securely store and share sensitive data using ipfs technology",
     },
     {
-      name: "Pokédex",
+      name: "TribeSpace",
       icon: "fa-solid fa-diagram-project",
       description:
-        "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+        "Decentralized Marketplace for tribal communities to sell their products and services.",
     },
   ];
 
@@ -91,25 +91,17 @@
       <h6 class="text-large sm:text-xl md:text-2xl">
         A few of my creative endeavors.
       </h6>
-      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        Curious to <span class="poppins text-violet-400">see</span> my work?
-      </h3>
     </div>
-    <a
-      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-      target="_blank"
-      class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
-    >
-      <i class="fa-regular fa-circle-play" />
-      <p>Watch the video</p>
-    </a>
+
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Smoljames Store is a a merchanising store created with <strong
+          DeThread is a web extension created with <strong
             class="text-violet-400"
-            >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-          > Commerce.js is a product CMS and Stripe is used for all transaction handling.
+            >Typescript, Solidity, Javascript, Html and CSS.
+          </strong>It aims to solve Censorship issues in conversations in social
+          media platforms and to make a censorship-free conversation thread as
+          an extension.
         </p>
       </Step>
       <Step step={steps[1]}>
